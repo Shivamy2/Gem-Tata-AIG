@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #264A9F;
+    --on-primary-color: #4b4b4b;
+    --form-color: #f2f2f3;
+    --form-label-color: #b4b2b2;
+    --box-shadow-color: rgb(191, 195, 207);
+    --gradient-color-dark: #2A78B5;
+    --gradient-color-light: #34C1D9;
+    --secondary-color: #18478B;
+    --primary-font-size: 1.43rem;
+    --secondary-font-size: 0.875rem;
+    --tagline-font-size: 0.797rem;
+    --hero-image: url('./Images/site-logo.png');
+    --hamburger-image: url('./Images/hamburger.svg');
+    --logo-info-1: url('./Images/icon-1.svg');
+    --logo-info-2: url('./Images/logo-2.svg');
+    --logo-info-3: url('./Images/logo-3.svg');
+    --logo-info-4: url('./Images/logo-4.svg');
+    --hero-image-2: url('./Images/hero-image-2.svg');
+}
