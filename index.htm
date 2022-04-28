@@ -13,123 +13,145 @@
 
 <body>
     <div class="outer-box">
-        <header>
+        <header class="bg-white sticky-top">
             <section class="nav nav__header justify-content-between px-4 py-3">
                 <div class="nav__header-logo p-2">
-                    <img height="100%" width="100%" src="./Images/site-logo.png" alt="tata aig logo">
+                    <img class="" height="100%" width="100%" src="./Images/site-logo.png" alt="tata aig logo">
                 </div>
-                <div class="nav__header-menu p-3">
-                    <img src="./Images/hamburger.svg" alt="hamburger">
+                <div class="d-flex nav__header-elements align-self-center">
+                    <div class="d-none d-md-flex justify-content-between">
+                        <div class="me-4 my-auto">All Products</div>
+                        <div class="me-4 my-auto">COVID -19 Assistance</div>
+                        <div class="me-4 my-auto">Claims</div>
+                        <div class="me-4 my-auto">Support</div>
+                    </div>
+                    <div class="nav__header-menu p-3 d-flex align-items-center">
+                        <img class="d-md-none" src="./Images/hamburger.svg" alt="hamburger">
+                        <img class="d-none d-md-block" src="./Images/userIcon.svg" alt="user icon">
+                        <span class="d-none d-md-block ms-2">Self Service</span>
+                    </div>
                 </div>
             </section>
         </header>
         <main>
-            <div class="main__message mt-3">
-                <h1 class="fw-bold">Become an Agent</h1>
-                <p class="mt-1">By becoming an Insurance Agent, you can contribute towards your family’s financial prosperity and also have the opportunity to impact other people’s lives positively.</p>
-            </div>
-            <div class="main__hero ">
-                <img height="100%" width="100%" src="./Images/hero-image.svg" alt="hero image tata aig">
+            <div class="d-md-flex">
+                <div class="main__message mt-3 main__hero-ele-1">
+                    <h1 class="fw-bold">Become an Agent</h1>
+                    <p class="mt-1">By becoming an Insurance Agent, you can contribute towards your family’s financial prosperity and also have the opportunity to impact other people’s lives positively.</p>
+                </div>
+                <div class="main__hero flex-md-grow-1 main__hero-ele-2">
+                    <img height="100%" width="100%" src="./Images/hero-image.svg" alt="hero image tata aig">
+                </div>
             </div>
             <div class="main__message text-start bg-white mt-2">
                 <p>Get associated with Tata AIG by sharing few of the contact details to get back:</p>
             </div>
             <div>
-                <form action="post">
-                    <div class="main__form">
+                <form class="px-4" action="post">
+                    <div class="main__form mx-auto">
                         <div class="main__form-heading mb-4 mt-3">Details Required</div>
                         <div class="form-group">
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">Title</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Mr.</option>
-                                    <option class="dropdown-item">Ms.</a></option>
-                                </select>
+                            <div class="d-md-flex justify-content-between">
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">Title</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Mr.</option>
+                                        <option class="dropdown-item">Ms.</a></option>
+                                    </select>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="title">First Name</label>
+                                    <input class="form-control" type="text" name="first_name" id="first_name" placeholder="First Name">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="title">Last Name</label>
+                                    <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Last Name">
+                                </div>
                             </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="title">First Name</label>
-                                <input class="form-control" type="text" name="first_name" id="first_name" placeholder="First Name">
+                            <div class="d-md-flex justify-content-between">
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="title">Phone Number</label>
+                                    <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="title">Alternate Mobile Number</label>
+                                    <input class="form-control" type="number" name="mob_number" id="mob_number" placeholder="Mobile Number">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="email">Email</label>
+                                    <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+                                </div>
                             </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="title">Last Name</label>
-                                <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Last Name">
+                            <div class="d-md-flex justify-content-between">
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="city">City</label>
+                                    <input class="form-control" type="text" name="city" id="city" placeholder="City">
+                                </div>
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">New To Industry</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Yes</option>
+                                        <option class="dropdown-item">No</a></option>
+                                    </select>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label class="ms-3" for="current_employee">Current Employee Working With</label>
+                                    <input class="form-control" type="text" name="current_employee" id="current_employee" placeholder="Current Company">
+                                </div>
                             </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="title">Phone Number</label>
-                                <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number">
+                            <div class="d-md-flex justify-content-between">
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">State</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Uttar Pradesh</option>
+                                        <option class="dropdown-item">Rajasthan</a></option>
+                                        <option class="dropdown-item">Assam</a></option>
+                                        <option class="dropdown-item">Odissa</a></option>
+                                    </select>
+                                </div>
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">Job Type</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Full-Time</option>
+                                        <option class="dropdown-item">Part-Time</a></option>
+                                    </select>
+                                </div>
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">Are You Associated With</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Mutual Friends</option>
+                                        <option class="dropdown-item">Life Insurance</option>
+                                        <option class="dropdown-item">General Insurance</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="title">Alternate Mobile Number</label>
-                                <input class="form-control" type="number" name="mob_number" id="mob_number" placeholder="Mobile Number">
+                            <div class="d-md-flex">
+                                <div class="dropdown d-flex flex-column">
+                                    <label class="ms-3" for="title">Line Of Business</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">Travel</option>
+                                        <option class="dropdown-item">Motor</option>
+                                        <option class="dropdown-item">Health</option>
+                                    </select>
+                                </div>
+                                <div class="dropdown d-flex flex-column ms-md-5">
+                                    <label class="ms-3" for="title">Annual Business Potential</label>
+                                    <select class="btn dropdown-toggle mt-2">
+                                        <option class="dropdown-item">Select</option>
+                                        <option class="dropdown-item">&lt; 6 Lakhs</option>
+                                        <option class="dropdown-item">6 - 10 Lakhs</a></option>
+                                        <option class="dropdown-item">Assam</a></option>
+                                        <option class="dropdown-item">Odissa</a></option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="email">Email</label>
-                                <input class="form-control" type="email" name="email" id="email" placeholder="Email">
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="city">City</label>
-                                <input class="form-control" type="text" name="city" id="city" placeholder="City">
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">New To Industry</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Yes</option>
-                                    <option class="dropdown-item">No</a></option>
-                                </select>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <label class="ms-3" for="current_employee">Current Employee Working With</label>
-                                <input class="form-control" type="text" name="current_employee" id="current_employee" placeholder="Current Company">
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">State</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Uttar Pradesh</option>
-                                    <option class="dropdown-item">Rajasthan</a></option>
-                                    <option class="dropdown-item">Assam</a></option>
-                                    <option class="dropdown-item">Odissa</a></option>
-                                </select>
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">Job Type</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Full-Time</option>
-                                    <option class="dropdown-item">Part-Time</a></option>
-                                </select>
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">Are You Associated With</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Mutual Friends</option>
-                                    <option class="dropdown-item">Life Insurance</option>
-                                    <option class="dropdown-item">General Insurance</option>
-                                </select>
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">Line Of Business</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">Travel</option>
-                                    <option class="dropdown-item">Motor</option>
-                                    <option class="dropdown-item">Health</option>
-                                </select>
-                            </div>
-                            <div class="dropdown d-flex flex-column">
-                                <label class="ms-3" for="title">Annual Business Potential</label>
-                                <select class="btn dropdown-toggle mt-2">
-                                    <option class="dropdown-item">Select</option>
-                                    <option class="dropdown-item">&lt; 6 Lakhs</option>
-                                    <option class="dropdown-item">6 - 10 Lakhs</a></option>
-                                    <option class="dropdown-item">Assam</a></option>
-                                    <option class="dropdown-item">Odissa</a></option>
-                                </select>
-                            </div>
-                            <div class="form-group__button">
+                            <div class="form-group__button mt-5">
                                 <button class="btn">Proceed</button>
                                 <p class="mt-2">By clicking proceed, I agree to override my DNCR</p>
                             </div>
@@ -241,6 +263,62 @@
                         </ul>
                     </div>
                     <hr class="mx-2">
+                    <div class="footer__upper-links">
+                        <div>
+                            <h4>Company</h4>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Public Disclosures</a></li>
+                            </ul>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">Agent Registration</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Resources</h4>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Insurance FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Services</h4>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">Renewals</a></li>
+                                <li><a href="#">Self Service</a></li>
+                            </ul>
+                            <ul class="w-75 d-flex justify-content-between" style="list-style-type: none;">
+                                <li><a href="#">Vehicle Inspection</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom-bar m-0">
+                <div>
+                    <div>
+                        <a href="#">Disclaimer</a> |
+                        <a href="#">Terms of Use</a> |
+                        <a href="#">Downloads</a> |
+                    </div>
+                    <div>
+                        <a href="#">GST Registration Numbers</a> |
+                        <a href="#">Privacy Policy</a> |
+                    </div>
+                    <div>
+                        <a href="#">Grieavance Redressal Policy</a> |
+                        <a href="#">General</a>
+                    </div>
+                </div>
+                <hr class="bg-white">
+                <div>
+                    2008, Tata AIG General Insurance Company Limited, all rights reserved. Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India. CINNumber : U85110MH2000PLC128425. Registered with IRDA
+                    of India Regn. No. 108. Insurance is the subject matter of the solicitation. For more details on benefits, exclusions, limitations, terms and conditions, please read sales brochure / policy wording carefully before concluding a sale.
+                    Toll Free Number : 1800 266 7780 / 1800 22 9966 (only for senior citizen policy holders). Email Id – customersupport@tataaig.com.
                 </div>
             </div>
         </footer>
