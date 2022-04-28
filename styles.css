@@ -74,7 +74,7 @@ body {
 .form-group>div>div {
     color: var(--secondary-color);
     margin-top: 2.2em;
-    width: 350px;
+    max-width: 350px;
 }
 
 .form-group>div>div>label {
@@ -128,6 +128,7 @@ select::-ms-expand {
 .main__jointata {
     background-color: var(--form-color);
     padding: 3em 3em;
+    margin-top: 40px;
 }
 
 .main__jointata>h2 {
@@ -302,7 +303,8 @@ select::-ms-expand {
 
 @media screen and (min-width: 768px) {
     .outer-box {
-        margin: 0px 3em;
+        width: 70vw;
+        margin: 0px auto;
     }
     .main__hero {
         height: 35vh;
@@ -323,9 +325,50 @@ select::-ms-expand {
         margin-top: 7em;
     }
     .form-group>div>div {
-        width: 220px;
+        max-width: 220px;
     }
     .form-group>div {
         margin: 0px auto;
+    }
+    .main__jointata {
+        width: 98.8vw;
+        margin-top: 70px;
+        background-color: var(--form-color);
+        padding: 3em 0px;
+    }
+    .main__jointata>div {
+        max-width: 80%;
+        margin: 70px auto;
+    }
+    .main__joindata-text {
+        padding: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* .main__joindata-line {
+        height: 20vh;
+        color: black;
+        width: 4px;
+    } */
+    .main__tataoffers {
+        padding: 3em;
+    }
+    .main__tataoffers>div {
+        margin-top: 30px;
+    }
+    .main__joindata-text {
+        margin-top: 0px;
+    }
+    .main__hero-image-2 {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .main__message>h1 {
+        font-size: 2.5rem;
+    }
+    .form-group>div>div {
+        width: 350px;
     }
 }

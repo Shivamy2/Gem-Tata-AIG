@@ -12,231 +12,236 @@
 </head>
 
 <body>
-    <div class="outer-box">
-        <header class="bg-white sticky-top">
-            <section class="nav nav__header justify-content-between px-4 py-3">
-                <div class="nav__header-logo p-2">
-                    <img class="" height="100%" width="100%" src="./Images/site-logo.png" alt="tata aig logo">
-                </div>
-                <div class="d-flex nav__header-elements align-self-center">
-                    <div class="d-none d-md-flex justify-content-between">
-                        <div class="me-4 my-auto">All Products</div>
-                        <div class="me-4 my-auto">COVID -19 Assistance</div>
-                        <div class="me-4 my-auto">Claims</div>
-                        <div class="me-4 my-auto">Support</div>
+    <div>
+        <div class="outer-box">
+            <header class="bg-white sticky-top">
+                <section class="nav nav__header justify-content-between px-4 py-3">
+                    <div class="nav__header-logo p-2">
+                        <img class="" height="100%" width="100%" src="./Images/site-logo.png" alt="tata aig logo">
                     </div>
-                    <div class="nav__header-menu p-3 d-flex align-items-center">
-                        <img class="d-md-none" src="./Images/hamburger.svg" alt="hamburger">
-                        <img class="d-none d-md-block" src="./Images/userIcon.svg" alt="user icon">
-                        <span class="d-none d-md-block ms-2">Self Service</span>
+                    <div class="d-flex nav__header-elements align-self-center">
+                        <div class="d-none d-md-flex justify-content-between">
+                            <div class="me-4 my-auto">All Products</div>
+                            <div class="me-4 my-auto">COVID -19 Assistance</div>
+                            <div class="me-4 my-auto">Claims</div>
+                            <div class="me-4 my-auto">Support</div>
+                        </div>
+                        <div class="nav__header-menu p-3 d-flex align-items-center">
+                            <img class="d-md-none" src="./Images/hamburger.svg" alt="hamburger">
+                            <img class="d-none d-md-block" src="./Images/userIcon.svg" alt="user icon">
+                            <span class="d-none d-md-block ms-2">Self Service</span>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <main>
+                <div class="d-md-flex">
+                    <div class="main__message mt-3 main__hero-ele-1 d-md-flex align-self-center flex-md-column text-md-start">
+                        <h1 class="fw-bold">Become an Agent</h1>
+                        <p class="mt-1">By becoming an Insurance Agent, you can contribute towards your family’s financial prosperity and also have the opportunity to impact other people’s lives positively.</p>
+                    </div>
+                    <div class="main__hero flex-md-grow-1 main__hero-ele-2">
+                        <img height="100%" width="100%" src="./Images/hero-image.svg" alt="hero image tata aig">
                     </div>
                 </div>
-            </section>
-        </header>
-        <main>
-            <div class="d-md-flex">
-                <div class="main__message mt-3 main__hero-ele-1">
-                    <h1 class="fw-bold">Become an Agent</h1>
-                    <p class="mt-1">By becoming an Insurance Agent, you can contribute towards your family’s financial prosperity and also have the opportunity to impact other people’s lives positively.</p>
+                <div class="main__message text-start bg-white mt-2">
+                    <p>Get associated with Tata AIG by sharing few of the contact details to get back:</p>
                 </div>
-                <div class="main__hero flex-md-grow-1 main__hero-ele-2">
-                    <img height="100%" width="100%" src="./Images/hero-image.svg" alt="hero image tata aig">
+                <div>
+                    <form class="px-4" action="post">
+                        <div class="main__form mx-auto">
+                            <div class="main__form-heading mb-4 mt-3">Details Required</div>
+                            <div class="form-group">
+                                <div class="d-md-flex justify-content-between">
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">Title</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Mr.</option>
+                                            <option class="dropdown-item">Ms.</a></option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="title">First Name</label>
+                                        <input class="form-control" type="text" name="first_name" id="first_name" placeholder="First Name">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="title">Last Name</label>
+                                        <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="d-md-flex justify-content-between">
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="title">Phone Number</label>
+                                        <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="title">Alternate Mobile Number</label>
+                                        <input class="form-control" type="number" name="mob_number" id="mob_number" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="email">Email</label>
+                                        <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="d-md-flex justify-content-between">
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="city">City</label>
+                                        <input class="form-control" type="text" name="city" id="city" placeholder="City">
+                                    </div>
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">New To Industry</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Yes</option>
+                                            <option class="dropdown-item">No</a></option>
+                                        </select>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <label class="ms-3" for="current_employee">Current Employee Working With</label>
+                                        <input class="form-control" type="text" name="current_employee" id="current_employee" placeholder="Current Company">
+                                    </div>
+                                </div>
+                                <div class="d-md-flex justify-content-between">
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">State</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Uttar Pradesh</option>
+                                            <option class="dropdown-item">Rajasthan</a></option>
+                                            <option class="dropdown-item">Assam</a></option>
+                                            <option class="dropdown-item">Odissa</a></option>
+                                        </select>
+                                    </div>
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">Job Type</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Full-Time</option>
+                                            <option class="dropdown-item">Part-Time</a></option>
+                                        </select>
+                                    </div>
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">Are You Associated With</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Mutual Friends</option>
+                                            <option class="dropdown-item">Life Insurance</option>
+                                            <option class="dropdown-item">General Insurance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="d-md-flex">
+                                    <div class="dropdown d-flex flex-column">
+                                        <label class="ms-3" for="title">Line Of Business</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">Travel</option>
+                                            <option class="dropdown-item">Motor</option>
+                                            <option class="dropdown-item">Health</option>
+                                        </select>
+                                    </div>
+                                    <div class="dropdown d-flex flex-column ms-md-5">
+                                        <label class="ms-3" for="title">Annual Business Potential</label>
+                                        <select class="btn dropdown-toggle mt-2">
+                                            <option class="dropdown-item">Select</option>
+                                            <option class="dropdown-item">&lt; 6 Lakhs</option>
+                                            <option class="dropdown-item">6 - 10 Lakhs</a></option>
+                                            <option class="dropdown-item">Assam</a></option>
+                                            <option class="dropdown-item">Odissa</a></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group__button mt-5">
+                                    <button class="btn">Proceed</button>
+                                    <p class="mt-2">By clicking proceed, I agree to override my DNCR</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        <div class="main__jointata">
+            <h2>Why You Should Join Tata AIG</h2>
+            <div class="d-md-flex justify-content-center">
+                <div class="row mt-5 mt-md-0">
+                    <div class="col-5 main__joindata-icons mx-md-auto">
+                        <img src="./Images/icon-1.svg" alt="icon 1">
+                    </div>
+                    <p class="col-9 col-md-12 main__joindata-text px-md-4">
+                        Secure your customers with India’s most trusted brand, Tata AIG
+                    </p>
+                </div>
+                <hr class="main__joindata_line">
+                <div class="row">
+                    <div class="col-5 main__joindata-icons mx-md-auto">
+                        <img src="./Images/logo-2.svg" alt="icon 1">
+                    </div>
+                    <p class="col-9 col-md-12 main__joindata-text px-md-4">
+                        At Tata AIG we keep our values first i.e. PEOPLE, EMPATHY, INTEGRITY, CUSTOMER FIRST </p>
+                </div>
+                <hr class="main__joindata-line">
+                <div class="row">
+                    <div class="col-5 main__joindata-icons mx-md-auto">
+                        <img src="./Images/logo-3.svg" alt="icon 1">
+                    </div>
+                    <p class="col-9 col-md-12 main__joindata-text px-md-4">
+                        You can look for long term association and growth in your career </p>
+                </div>
+                <hr class="main__joindata_line">
+                <div class="row">
+                    <div class="col-5 main__joindata-icons mx-md-auto">
+                        <img src="./Images/icon-1.svg" alt="icon 1">
+                    </div>
+                    <p class="col-9 col-md-12 main__joindata-text px-md-4">
+                        Great earning opportunity along with recognition for your hard work </p>
                 </div>
             </div>
-            <div class="main__message text-start bg-white mt-2">
-                <p>Get associated with Tata AIG by sharing few of the contact details to get back:</p>
+        </div>
+        <div class="row">
+            <div class="container col-md main__tataoffers">
+                <h2>What Tata AIG offers you?</h2>
+                <div class="row">
+                    <div class="col-1">
+                        <div class="main__tataoffers__icon">
+                            <img src="./Images/checkmark.svg" alt="checkmark">
+                        </div>
+                    </div>
+                    <p class="col-11 main__joindata-text text-md-start">Learning opportunity for you with our exclusive Tata AIG Academy which helps you to enhance your skills</p>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <div class="main__tataoffers__icon">
+                            <img src="./Images/checkmark.svg" alt="checkmark">
+                        </div>
+                    </div>
+                    <p class="col-11 main__joindata-text text-md-start">Claim servicing in need is what customer buys & at Tata AIG customer claim are serviced by an experienced in-house claims management team</p>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <div class="main__tataoffers__icon">
+                            <img src="./Images/checkmark.svg" alt="checkmark">
+                        </div>
+                    </div>
+                    <p class="col-11 main__joindata-text text-md-start">Comprehensive product solutions – Motor , Health, Travel & Corporate risk solutions</p>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <div class="main__tataoffers__icon">
+                            <img src="./Images/checkmark.svg" alt="checkmark">
+                        </div>
+                    </div>
+                    <p class="col-11 main__joindata-text text-md-start">Business development support and handhold at each progressive step</p>
+                </div>
             </div>
-            <div>
-                <form class="px-4" action="post">
-                    <div class="main__form mx-auto">
-                        <div class="main__form-heading mb-4 mt-3">Details Required</div>
-                        <div class="form-group">
-                            <div class="d-md-flex justify-content-between">
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">Title</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Mr.</option>
-                                        <option class="dropdown-item">Ms.</a></option>
-                                    </select>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="title">First Name</label>
-                                    <input class="form-control" type="text" name="first_name" id="first_name" placeholder="First Name">
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="title">Last Name</label>
-                                    <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Last Name">
-                                </div>
-                            </div>
-                            <div class="d-md-flex justify-content-between">
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="title">Phone Number</label>
-                                    <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number">
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="title">Alternate Mobile Number</label>
-                                    <input class="form-control" type="number" name="mob_number" id="mob_number" placeholder="Mobile Number">
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="email">Email</label>
-                                    <input class="form-control" type="email" name="email" id="email" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="d-md-flex justify-content-between">
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="city">City</label>
-                                    <input class="form-control" type="text" name="city" id="city" placeholder="City">
-                                </div>
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">New To Industry</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Yes</option>
-                                        <option class="dropdown-item">No</a></option>
-                                    </select>
-                                </div>
-                                <div class="d-flex flex-column">
-                                    <label class="ms-3" for="current_employee">Current Employee Working With</label>
-                                    <input class="form-control" type="text" name="current_employee" id="current_employee" placeholder="Current Company">
-                                </div>
-                            </div>
-                            <div class="d-md-flex justify-content-between">
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">State</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Uttar Pradesh</option>
-                                        <option class="dropdown-item">Rajasthan</a></option>
-                                        <option class="dropdown-item">Assam</a></option>
-                                        <option class="dropdown-item">Odissa</a></option>
-                                    </select>
-                                </div>
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">Job Type</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Full-Time</option>
-                                        <option class="dropdown-item">Part-Time</a></option>
-                                    </select>
-                                </div>
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">Are You Associated With</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Mutual Friends</option>
-                                        <option class="dropdown-item">Life Insurance</option>
-                                        <option class="dropdown-item">General Insurance</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="d-md-flex">
-                                <div class="dropdown d-flex flex-column">
-                                    <label class="ms-3" for="title">Line Of Business</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">Travel</option>
-                                        <option class="dropdown-item">Motor</option>
-                                        <option class="dropdown-item">Health</option>
-                                    </select>
-                                </div>
-                                <div class="dropdown d-flex flex-column ms-md-5">
-                                    <label class="ms-3" for="title">Annual Business Potential</label>
-                                    <select class="btn dropdown-toggle mt-2">
-                                        <option class="dropdown-item">Select</option>
-                                        <option class="dropdown-item">&lt; 6 Lakhs</option>
-                                        <option class="dropdown-item">6 - 10 Lakhs</a></option>
-                                        <option class="dropdown-item">Assam</a></option>
-                                        <option class="dropdown-item">Odissa</a></option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group__button mt-5">
-                                <button class="btn">Proceed</button>
-                                <p class="mt-2">By clicking proceed, I agree to override my DNCR</p>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="container mt-5 main__jointata">
-                    <h2>Why You Should Join Tata AIG</h2>
-                    <div>
-                        <div class="row mt-5">
-                            <div class="col-5 main__joindata-icons">
-                                <img src="./Images/icon-1.svg" alt="icon 1">
-                            </div>
-                            <p class="col-9 main__joindata-text">
-                                Secure your customers with India’s most trusted brand, Tata AIG
-                            </p>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-5 main__joindata-icons">
-                                <img src="./Images/logo-2.svg" alt="icon 1">
-                            </div>
-                            <p class="col-9 main__joindata-text">
-                                At Tata AIG we keep our values first i.e. PEOPLE, EMPATHY, INTEGRITY, CUSTOMER FIRST </p>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-5 main__joindata-icons">
-                                <img src="./Images/logo-3.svg" alt="icon 1">
-                            </div>
-                            <p class="col-9 main__joindata-text">
-                                You can look for long term association and growth in your career </p>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-5 main__joindata-icons">
-                                <img src="./Images/icon-1.svg" alt="icon 1">
-                            </div>
-                            <p class="col-9 main__joindata-text">
-                                Great earning opportunity along with recognition for your hard work </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container main__tataoffers">
-                    <h2>What Tata AIG offers you?</h2>
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="main__tataoffers__icon">
-                                <img src="./Images/checkmark.svg" alt="checkmark">
-                            </div>
-                        </div>
-                        <p class="col-11 main__joindata-text">Learning opportunity for you with our exclusive Tata AIG Academy which helps you to enhance your skills</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="main__tataoffers__icon">
-                                <img src="./Images/checkmark.svg" alt="checkmark">
-                            </div>
-                        </div>
-                        <p class="col-11 main__joindata-text">Claim servicing in need is what customer buys & at Tata AIG customer claim are serviced by an experienced in-house claims management team</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="main__tataoffers__icon">
-                                <img src="./Images/checkmark.svg" alt="checkmark">
-                            </div>
-                        </div>
-                        <p class="col-11 main__joindata-text">Comprehensive product solutions – Motor , Health, Travel & Corporate risk solutions</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="main__tataoffers__icon">
-                                <img src="./Images/checkmark.svg" alt="checkmark">
-                            </div>
-                        </div>
-                        <p class="col-11 main__joindata-text">Business development support and handhold at each progressive step</p>
-                    </div>
-                </div>
-                <div class="main__hero-image-2">
-                    <img height="100%" width="100%" src="./Images/hero-image-2.svg" alt="hero image 2">
-                </div>
-                <div class="main__hero-image-3 w-100 d-flex justify-content-end">
-                    <img height="100%" src="./Images/footerBgImage1.svg" alt="hero image 3">
-                </div>
-                <hr class="mx-4">
+            <div class="main__hero-image-2 col-md">
+                <img height="100%" width="100%" src="./Images/hero-image-2.svg" alt="hero image 2">
+            </div>
+        </div>
+        <div class="main__hero-image-3 w-100 d-flex justify-content-end">
+            <img height="100%" src="./Images/footerBgImage1.svg" alt="hero image 3">
+        </div>
+        <hr class="mx-4">
         </main>
 
         <footer class="footer">
@@ -322,7 +327,7 @@
                 </div>
             </div>
         </footer>
-        </div>
+    </div>
 </body>
 
 </html>
